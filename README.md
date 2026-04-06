@@ -128,6 +128,7 @@ AI 编程工具很强，但直接让 AI 写代码会遇到这些问题：
 # 方式1：Plugin marketplace（一键安装）
 /plugin marketplace add dylon-entropy/entropy-reduction
 /plugin install entropy-reduction@entropy-reduction
+
 # 务必不要忘记这一步，直接影响工作流能否被正确触发的概率，{1.0.0}可根据实际版本进行替换
 cat ~/.claude/plugins/cache/entropy-reduction/entropy-reduction/1.0.0/platforms/claude-rules.md >> ~/.claude/CLAUDE.md
 
@@ -214,7 +215,6 @@ entropy-reduction/
 ├── README.md
 ├── LICENSE
 ├── install.sh              # 手动安装脚本
-├── INSTALL.md              # 详细安装指南
 ├── .claude-plugin/         # Claude Code plugin 适配
 ├── .cursor-plugin/         # Cursor plugin 适配
 ├── .codex/                 # Codex 安装指引
