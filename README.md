@@ -130,7 +130,7 @@ AI 编程工具很强，但直接让 AI 写代码会遇到这些问题：
 /plugin install entropy-reduction
 
 # 务必不要忘记这一步，直接影响工作流能否被正确触发的概率
-cat ~/.claude/plugins/marketplaces/entropy-reduction/platforms/platforms/claude-rules.md >> ~/.claude/CLAUDE.md
+cat ~/.claude/plugins/marketplaces/entropy-reduction/platforms/claude-rules.md >> ~/.claude/CLAUDE.md
 
 
 # 方式2：手动安装
