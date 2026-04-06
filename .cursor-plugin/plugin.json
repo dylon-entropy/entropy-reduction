@@ -1,0 +1,10 @@
+{
+  "name": "entropy-reduction",
+  "description": "A spec-driven AI programming workflow — document first, implement second",
+  "version": "1.0.0",
+  "author": {
+    "name": "dylon-entropy"
+  },
+  "repository": "https://github.com/dylon-entropy/entropy-reduction",
+  "license": "MIT"
+}

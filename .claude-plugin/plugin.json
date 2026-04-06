@@ -1,0 +1,20 @@
+{
+  "name": "entropy-reduction",
+  "description": "A spec-driven AI programming workflow — document first, implement second, human reviews, machine executes",
+  "version": "1.0.0",
+  "author": {
+    "name": "dylon-entropy"
+  },
+  "homepage": "https://github.com/dylon-entropy/entropy-reduction",
+  "repository": "https://github.com/dylon-entropy/entropy-reduction",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "spec-driven",
+    "workflow",
+    "document-driven",
+    "code-review",
+    "learning",
+    "chinese"
+  ]
+}

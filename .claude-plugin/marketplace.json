@@ -1,0 +1,18 @@
+{
+  "name": "entropy-reduction",
+  "description": "Spec-driven AI programming workflow / 文档驱动的 AI 编程工作流",
+  "owner": {
+    "name": "dylon-entropy"
+  },
+  "plugins": [
+    {
+      "name": "entropy-reduction",
+      "description": "A spec-driven AI programming workflow that works with any AI coding tool",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "dylon-entropy"
+      }
+    }
+  ]
+}
