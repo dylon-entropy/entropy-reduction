@@ -19,10 +19,12 @@
 
 3. **Add resident rules** to `~/.codex/AGENTS.md`:
    ```bash
+   touch ~/.codex/AGENTS.md   # 确保文件存在
    cat ~/.codex/entropy-reduction/platforms/agents-rules.md >> ~/.codex/AGENTS.md
    ```
 
 4. **Restart Codex.**
+具体重启方式请参考 Codex 官方文档
 
 ## Verify
 
