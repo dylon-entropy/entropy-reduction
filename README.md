@@ -1,4 +1,4 @@
-# 熵减 (Entropy Reduction)
+# 熵减工作流 (Entropy Reduction Workflow)
 
 **A spec-driven AI programming workflow that works with any AI coding tool.**
 
