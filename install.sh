@@ -2,7 +2,7 @@
 set -e
 
 # 熵减工作流安装脚本
-# 支持 Claude Code / OpenClaw / LobsterAI
+# 支持 Claude Code
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SKILLS_DIR="$HOME/.claude/skills"
@@ -15,8 +15,6 @@ echo ""
 detect_platform() {
     if command -v claude &>/dev/null; then
         echo "claude-code"
-    elif [ -d "$HOME/Library/Application Support/LobsterAI" ]; then
-        echo "openclaw"
     else
         echo "generic"
     fi
@@ -77,11 +75,6 @@ case "$PLATFORM" in
         echo ""
         echo "  cat $SCRIPT_DIR/platforms/claude-rules.md >> /path/to/project/CLAUDE.md"
         ;;
-    openclaw)
-        echo "  OpenClaw/LobsterAI → AGENTS.md"
-        echo ""
-        echo "  cat $SCRIPT_DIR/platforms/agents-rules.md >> /path/to/project/AGENTS.md"
-        ;;
     *)
         echo "  Claude Code   → CLAUDE.md"
         echo "  OpenClaw      → AGENTS.md"
@@ -94,4 +87,3 @@ esac
 echo ""
 echo "添加后，在对话中输入 /er-init 验证安装是否成功。"
 echo ""
-echo "详细说明见: $SCRIPT_DIR/INSTALL.md"
